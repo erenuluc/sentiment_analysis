@@ -9,6 +9,7 @@ analysis in software engineering texts presents unique challenges due to the pre
 code snippets, and domain-specific language. Over the years, many tools have been proposed to aid in
 sentiment analysis, but accurately identifying the sentiments expressed in software engineering datasets
 remains challenging.
+
 This research aims to enhance the predictions of sentiment analysis in software engineering texts
 by using retrieval-based techniques to improve the performance of Large Language Models (LLMs) in
 few-shot prompting scenarios. In this work, the benchmark is the LLM performance on a gold-standard
@@ -17,6 +18,7 @@ techniques have been used to assess the performance change in the LLM in few-sho
 was examined by taking 1-, 3- and 5-shots from retrieval techniques that were closest to the test sentence.
 Then, it was examined filtering the output of retrieval techniques according to sentiment types for 3-
 and 5-shots.
+
 The experimental findings demonstrate that using retrieval techniques in sentiment analysis for soft-
 ware engineering may increase the performance of the LLM slightly. Unfortunately the discrepancy of the
 benchmark and the best performing retrieval technique is very small. Therefore, no definitive conclusion
